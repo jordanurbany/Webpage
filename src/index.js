@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import './assets/fonts/LaBelleAurore.woff'
+import './assets/fonts/LaBelleAurore.woff2'
+import './assets/fonts/CoolveticaRg-Regular.woff'
+import './assets/fonts/CoolveticaRg-Regular.woff2'
+import './assets/fonts/helvetica-neu.ttf'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
