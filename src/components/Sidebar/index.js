@@ -4,8 +4,8 @@ import LogoS from '../../assets/images/teddy-logo.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faHome, faUser, faWhiskeyGlass } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
   return (
@@ -43,18 +43,18 @@ const Sidebar = () => {
             <a
                 target='_blank'
                 rel='noreferrer'
-                hrref='https://www.linkedin.com/in/teddy-horvath-342194242/'    
+                href='https://www.linkedin.com/in/teddy-horvath-342194242/'    
             >
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
             </a>
         </li>
         <li>
             <a
                 target='_blank'
                 rel='noreferrer'
-                href=''    
+                href='https://github.com/HorvathTeddy'    
             >
-                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
             </a>
         </li>
       </ul>
