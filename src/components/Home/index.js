@@ -8,30 +8,8 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['e','d','d','y']
-  const jobArray = [
-  'w',
-  'e',
-  'b',
-  ' ',
-  'd',
-  'e',
-  'v',
-  'e',
-  'l',
-  'o',
-  'p',
-  'e',
-  'r',
-  '.'
-]
+  const jobArray = ['c','o','m','p','u','t','e','r',' ','s','c','i','e','n','c','e',' ','u','n','d','e','r','g','r','a','d']
 
-useEffect(() => {
-  setTimeout(() => {
-}, 4000)
-return  setLetterClass('text-animate-hover')
-}, [])
-
-  // const jobArray = ['c','o','m','p','u','t','e','r',' ','s','c','i','e','n','c','e',' ','u','n','d','e','r','g','r','a','d']
 
   return (
     <div className='container home-page'>
