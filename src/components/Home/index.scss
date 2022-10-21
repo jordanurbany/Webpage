@@ -108,7 +108,22 @@
         }
 
         .logo-container {
-            display: none;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            top: 50px;
+            right: 0px;
+            box-sizing: border-box;
+            margin: auto;
+            left: 0;
+
+            svg {
+                position: absolute;
+                top: auto;
+                right: auto;
+                bottom: auto;
+                margin: auto;
+            }
         }
     }
 }
