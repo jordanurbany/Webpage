@@ -24,13 +24,13 @@ const About = () => {
                     strArray={['A','b','o','u','t',' ','M','e']}
                     idx={15}   
                 />
-                <p>
+                <p style={{fontSize: '20px'}}>
                     My name is Teddy Horvath and I am dedicated to writing effective and impactful code.
                 </p>
-                <p>
+                <p style={{fontSize: '20px'}}>
                     I am a 21 year old from Orange County, CA currently attending Cal Poly Humboldt.  I have been programming ever since I joined college in 2019 and I absolutely love it. My goal is to change as many people\'s lives as I can with software.
                 </p>
-                <p>
+                <p style={{fontSize: '20px'}}>
                     Besides my adoration for all things technology, I also love swimming in the cold ocean, hiking in thick forests, and connecting with friends through a good conversation.
                 </p>
             </h1>
