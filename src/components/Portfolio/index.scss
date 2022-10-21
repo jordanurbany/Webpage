@@ -120,13 +120,10 @@
     }
 }
 
-// h2 {
-//     color: white;
-//     font-size: 28px;
-// }
-
-// h3 {
-//     color: white;
-//     font-size: 24px;
-//     font-weight: 100;
-// }
+@media screen and (max-width: 1200px) {
+    .container.portfolio-page {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}

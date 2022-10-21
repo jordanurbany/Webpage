@@ -54,7 +54,7 @@ const Portfolio = () => {
       <h1 className='page-title'>
         <AnimatedLetters 
             letterClass={letterClass}
-            strArray={'Check out a few of my projects'.split('')}
+            strArray={'Portfolio'.split('')}
             idx={15}
         />
       </h1> 
