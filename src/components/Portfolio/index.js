@@ -26,7 +26,7 @@ const Portfolio = () => {
             {
                 portfolio.map((port, idx) => {
                     return (
-                        <div className='image-box'>
+                        <div className='image-box' key={idx}>
                             <img 
                                 onMouseOver={event => event.target.play()}
                                 onMouseOut={event => event.target.pause()}
@@ -47,7 +47,7 @@ const Portfolio = () => {
         </div>
     )
   }
-
+  
   return (
     <>
     <div className='container portfolio-page'>
@@ -64,8 +64,10 @@ const Portfolio = () => {
     </div>
     <Loader type='pacman'/>
     </>
+  
   )
 }
+
 
 export default Portfolio
 
