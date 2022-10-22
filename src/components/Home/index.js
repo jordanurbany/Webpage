@@ -7,15 +7,17 @@ import './index.scss'
 import Loader from 'react-loaders'
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['e','d','d','y',',',,' ','a',]
-  const jobArray = ['C','o','m','p','u','t','e','r',' ','S','c','i','e','n','c','e',' ','u','n','d','e','r','g','r','a','d','u','a','t','e','.']
+  const [letterClass, setletterClass] = useState('text-animate')
 
   useEffect(() => {
-    setTimeout(() => {
-      setLetterClass('text-animate-hover')
+    const timer = setTimeout(() => {
+        setletterClass('text-animate-hover')
     }, 7000)
-  }, [])
+
+    return () => {
+        clearTimeout(timer)
+    }
+  })
 
   return (
     <>
@@ -28,9 +30,9 @@ const Home = () => {
           <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>
           <img src={LogoT} alt='dev' />
-          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+          <AnimatedLetters letterClass={letterClass} strArray={'eddy, a'.split('')} idx={15} />
           <br />
-          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={20} />
+          <AnimatedLetters letterClass={letterClass} strArray={'Computer Science Undergraduate.'.split()} idx={20} />
           </h1>
           <h2>full-stack developer | programmer | open source contributor | adrdent learner</h2>
           <Link to='/contact' className='flat-button'>CONTACT ME</Link>

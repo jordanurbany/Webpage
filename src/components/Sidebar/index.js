@@ -13,7 +13,10 @@ const Sidebar = () => {
 
   return (
     <div className='nav-bar'>
-      <Link className='logo'>
+      <Link 
+        className='logo' 
+        to="/"
+        onClick={() => setShowNav(false)}>
         <img src={LogoS} alt='logo' />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
