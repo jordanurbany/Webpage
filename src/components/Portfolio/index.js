@@ -2,13 +2,11 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import portfolioData from '../data/portfolio.json'
-import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../firebase';
+import { portfolioData } from "../data/portfolio";
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [portfolio, setPortfolio] = useState([]);
+    //const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -20,38 +18,43 @@ const Portfolio = () => {
         }
     });
 
-    useEffect(() => {
-        getPortfolio();
-    }, []);
+    // useEffect(() => {
+    //     getPortfolio();
+    // }, []);
 
-    const getPortfolio = async () => {
-        const querySnapshot = await getDocs(collection(db, 'portfolio'));
-        setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
-    }
+    // const getPortfolio = async () => {
+    //     const querySnapshot = await getDocs(collection(db, 'portfolio'));
+    //     setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
+    // }
 
-    const renderPortfolio = (portfolio) => {
+    const renderPortfolio = (portfolio, idx) => {
         return (
-            <div className="images-container">
-                {
+            <div className="images-container" key={idx}>
+               {
                     portfolio.map((port, idx) => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                src={port.image}
+                                src={port.cover}
                                 className="portfolio-image"
-                                alt="portfolio" />
+                                alt="portfolio"></img>
                                 <div className="content">
-                                    <p className="title">{port.name}</p>
+                                    <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
+                                    <p className="stack">{port.stack}</p>
                                     <button
                                         className="btn"
                                         onClick={() => window.open(port.url)}
-                                    >View</button>
+                                    >View Project</button>
+                                    <button
+                                        className="btn"
+                                        onClick={() => window.open(port.src)}
+                                    >View Repo</button>
                                 </div>
                             </div>
                         )
                     })
-                }
+              }
             </div>
         );
     }
@@ -67,7 +70,7 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                <div>{renderPortfolio(portfolioData)}</div>
             </div>
             <Loader type="pacman" />
         </>

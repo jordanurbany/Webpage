@@ -1,7 +1,7 @@
-{
-    "portfolio": [
+
+    export const portfolioData = [
         {
-            "cover": "/screenshots/svm.JPG",
+            "cover": require("../../portfolio/1/sync.JPG"),
             "title": "Scotts Valley Magnetics Website",
             "description": "Company website developed for electronics manufacturing company Scotts Valley Magnetics.",
             "stack": "ReactJS, JSX",
@@ -9,7 +9,7 @@
             "src": "https://scottsvalleymagnetics.netlify.app/"
         },
         {
-            "cover": "/screenshots/sync.JPG",
+            "cover": require("../../portfolio/2/svm.JPG"),
             "title": "Sync Webapp",
             "description": "Music collaboration app utilizing advanced AI and machine learning to match artists, lyricists, and producers.",
             "stack": "ReactJS, Firebase",
@@ -17,7 +17,7 @@
             "src": "https://github.com/HorvathTeddy/Sync"
         },
         {
-            "cover": "/screenshots/uhr.PNG",
+            "cover": require("../../portfolio/3/uhr.PNG"),
             "title": "Uhr Mobile Delivery",
             "description": "On demand cannabis delivery service with a user and driver application.",
             "stack": "React Native, AWS Amplify",
@@ -25,4 +25,3 @@
             "src": "https://github.com/HorvathTeddy/SprintDeliveries"
         }
     ]
-}
