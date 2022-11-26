@@ -47,7 +47,7 @@ const Contact = () => {
                         idx={15}
                     />
                 </h1>
-                <p style={{color: 'white', fontSize: '14px'}}>
+                <p style={{color: 'black', fontSize: '14px', fontWeight: '700'}}>
                     I am interested in startup opportunities and new project ideas! Please send me a message if you have any questions or comments.  
                 </p>
                 <div className='contact-form'>
@@ -69,7 +69,7 @@ const Contact = () => {
                                     required 
                                 />
                             </li>
-                            <li>
+                            <li className='full'>
                                 <input 
                                     placeholder="subject" 
                                     type='text' 
@@ -77,7 +77,7 @@ const Contact = () => {
                                     required 
                                 /> 
                             </li>
-                            <li>
+                            <li className='full'>
                                 <textarea 
                                     placeholder='Message' 
                                     name='message' 
@@ -115,7 +115,7 @@ const Contact = () => {
                 </MapContainer>
             </div>
         </div>
-        <Loader type='pacman' />
+        <Loader type='triangle-skew-spin' />
     </>
   )
 }

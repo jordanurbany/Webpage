@@ -38,6 +38,10 @@
         margin-top: -120px;
         width: 100%;
 
+        a svg {
+            opacity: 1 !important;
+            color: white;
+        }
 
         a {
             font-size: 22px;
@@ -70,13 +74,15 @@
         }
         a.active{
             svg {
-                color: #ffd700;
+                color: #4169e1 ;
             }
         }
 
         a.nav-button-icon {
+            
+            
             &:hover svg {
-                color: #ffd700;
+                color: #4169e1 ;
             }
         }
         
@@ -121,10 +127,14 @@
                 display: block;
                 font-size: 15px;
                 line-height: 16px;
-                color: #4d4d4e;
+                color: #fff;
+
+                svg {
+                    color: white;
+                }
 
                 &:hover svg {
-                    color: #ffd700
+                    color: #4169e1;
                 }
             }
         }
@@ -161,7 +171,7 @@
             background: #181818;
             top: 0;
             right: 0;
-           
+            border-radius: 33px;
             z-index: 2;
             margin: 0;
            padding: 0;
@@ -194,17 +204,24 @@
             }
             .mobile-show{
                 &:hover {
-                    color: yellow
+                    color: #000;
                 }
             }
         }
 
-        .burger-icon, 
+        .burger-icon {
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            color: black;
+        }
         .close-icon {
             display: block;
             position: absolute;
             top: 15px;
             right: 15px;
+            color: white;
         }
 
         

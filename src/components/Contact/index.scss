@@ -29,6 +29,17 @@
             &:first-child {
                 margin-left: 0;
             }
+            ::placeholder {
+                color: white;
+                opacity: 0.8;
+            }
+        }
+
+        li.full {
+            ::placeholder {
+                color: white;
+                opacity: 0.8;
+            }
         }
     }
 
@@ -36,7 +47,8 @@
     input[type='email'] {
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #4169e1 ;
+        opacity: 0.75;
         height: 50px;
         font-size: 16px;
         color: white;
@@ -47,7 +59,8 @@
     textarea {
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #4169e1 ;
+        opacity: 0.75;
         height: 50px;
         font-size: 16px;
         color: white;
@@ -57,13 +70,13 @@
     }
 
     .flat-button {
-        color: #ffd700;
+        color: #4169e1 ;
         background: 0 0;
         font: 11px;
         letter-spacing: 3px;
         text-decoration: none;
-        padding: 1px solid #ffd700;
-        border: 1px solid #ffd700;
+        padding: 1px solid #4169e1 ;
+        border: 1px solid #4169e1 ;
         float: right;
         border-radius: 4px;
     }
@@ -89,7 +102,7 @@
         font-size: 16px;
         display: block;
         padding-top: 20px;
-        color: #ffd700;
+        color: #4169e1 ;
     }
  }
 

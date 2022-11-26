@@ -72,7 +72,7 @@ const Portfolio = () => {
                 </h1>
                 <div>{renderPortfolio(portfolioData)}</div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="triangle-skew-spin" />
         </>
     );
 }

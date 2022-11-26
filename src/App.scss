@@ -1,7 +1,10 @@
-$primary-color: #ffd700;
+$primary-color: #000;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
+@import 'loaders.css/src/animations/ball-pulse.scss';
+@import 'loaders.css/src/animations/triangle-skew-spin.scss';
+
 
 @font-face {
   font-family: 'Helvetica Neue';

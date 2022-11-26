@@ -1,5 +1,6 @@
-.home-page {
 
+
+.home-page {
     .text-zone {
         position: absolute;
         left: 27%;
@@ -10,45 +11,46 @@
         text-align: justify;
     }
     
-    .logo-container {
-        position: relative;
-        width: 400px;
-        height: auto;
-        align-items: center;
-        top: 50px;
-        right: 50px;
-        box-sizing: border-box;
-        margin: auto;
-        float: right;
-        z-index: -1;
-        border-radius: 30px;
+    .home-page {
+        .logo-container {
+                   position: relative;
+                   width: 300px;
+                   height: auto;
+                   align-items: center;
+                   top: 50px;
+                   float: none;
+                   right: -75px;
+                     margin: auto;
+                    width: 60%;
+                    border: 3px solid #73AD21;
+                    padding: 10px;
+                   //margin-bottom:
+                   box-sizing: border-box;
+                   //left: 0;
+                   
+                   svg {
+                       position: absolute;
+                       top: auto;
+                       right: auto;
+                       bottom: auto;
+                       left: 0;
+                       margin: auto;
+                   }
+               }
     }
 
-    // .hanalei__photo {
-    //     width: 50%;
-    //     height: 100%;
-    //     top: 0;
-    //     left: 20%;
-    //     bottom: 0;
-    //     padding-top: 18%;
-    //     margin-left: 0;
-    //     position: absolute;
-    //     right: 0;
-    //     overflow: hidden;
-    //     margin-top: 200px;
-    // }
 
     h1 {
-        color: #fff;
+        color: #000 ;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
 
         &::before {
-            content: '<h1>';
+            content: '';
             font-family: 'La Belle Aurore';
-            color: #ffd700;
+            color: #000;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -57,9 +59,9 @@
         }
 
         &::after {
-            content: '</h1>';
+            content: '';
             font-family: 'La Belle Aurore';
-            color: #ffd700;
+            color: #000;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
@@ -79,9 +81,9 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: #000 ;
         margin-top: 20px;
-        font-weight: 400;
+        font-weight: 800;
         font-size: 11px;
         font-family: sans-serif;
         letter-spacing: 3px;
@@ -89,22 +91,22 @@
     }
 
     .flat-button {
-        color: #ffd700;
+        color: #4169e1 ;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #ffd700;
+        border: 1px solid #4169e1 ;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover {
-            background: #ffd700;
-            color: #333;
+            background: #4169e1 ;
+            color: #fff;
         }
     }
 }
@@ -132,15 +134,15 @@
             box-sizing: border-box;
         }
         h1 {
-            font-size: 33px;
+            font-size: 45px;
             text-align: left;
             justify-content: center;
             padding-left: 15%;
         }
         h2 {
-            color: #8d8d8d;
+            color: #000 ;
             margin-top: 20px;
-            font-weight: 400;
+            font-weight: 800;
             font-size: 11px;
             font-family: sans-serif;
             letter-spacing: 3px;
@@ -163,6 +165,10 @@
             top: 50px;
             float: none;
             right: -75px;
+              margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
             //margin-bottom:
             box-sizing: border-box;
             //left: 0;
