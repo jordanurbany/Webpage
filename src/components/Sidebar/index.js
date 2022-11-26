@@ -1,10 +1,9 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/canvas profile picture.jpg'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faSuitcase, faBars, faClose, faPlug } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
@@ -81,6 +80,13 @@ const Sidebar = () => {
                 href='https://github.com/HorvathTeddy'    
             >
                 <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+            </a>
+            <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://docs.google.com/document/d/e/2PACX-1vSDSt8BU4c19kYOl4dMD8kEbRhzHw9gg-1DJSmtG7h8NccXufpK9FIBvsxEXe28tqpPNjysPxRco7ER/pub'    
+            >
+                <FontAwesomeIcon icon={faPlug} color='#4d4d4e' />
             </a>
         </li>
       </ul>
