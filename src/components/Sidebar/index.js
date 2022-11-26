@@ -19,10 +19,11 @@ const Sidebar = () => {
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt='logo' />
       </Link>
-      <nav className={showNav ? 'mobile-show' : ''}>
+      <nav className={showNav ? 'mobile-show' : 'pc-show'}>
         <NavLink 
             onClick={() => setShowNav(false)}
             exact='true'
+            className='nav-button-icon'
             activeclassname='active' 
             to="/"
         >
@@ -32,7 +33,7 @@ const Sidebar = () => {
             onClick={() => setShowNav(false)} 
             exact='true'
             activeclassname='active' 
-            className='about-link' 
+            className='nav-button-icon'
             to='about'
         >
             <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
@@ -41,7 +42,7 @@ const Sidebar = () => {
             onClick={() => setShowNav(false)}
             exact='true' 
             activeclassname='active' 
-            className='portfolio-link' 
+            className='nav-button-icon'
             to='/portfolio'
         >
             <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e' />
@@ -50,7 +51,7 @@ const Sidebar = () => {
             onClick={() => setShowNav(false)}
             exact='true'
             activeclassname='active' 
-            className='contact-link' 
+            className='nav-button-icon'
             to='/contact'
         >
             <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />

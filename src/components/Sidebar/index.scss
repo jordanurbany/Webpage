@@ -1,3 +1,4 @@
+
 .nav-bar {
     background: #181818;
     width: 60px;
@@ -6,11 +7,12 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
-
+    
     .logo {
         display: block;
         padding: 8px 0;
         margin-top: -16px;
+       
 
     img {
         display: block;
@@ -26,6 +28,7 @@
     
 }
 
+
     nav {
         display: block;
         text-align: center;
@@ -34,6 +37,7 @@
         top: 50%;
         margin-top: -120px;
         width: 100%;
+
 
         a {
             font-size: 22px;
@@ -48,7 +52,7 @@
                 transition: all 0.3s ease-out;
             }
 
-           
+            
 
             &:after {
                 content: '';
@@ -63,18 +67,21 @@
                 -webkit-transition: all 0.3s ease-out;
                 transition: all 0.3s ease-out;
             }
-
-            // &:first-child {
-            //     &::after {
-            //         content: 'HOME';
-            //     }
-            // }
         }
         a.active{
             svg {
                 color: #ffd700;
             }
         }
+
+        a.nav-button-icon {
+            &:hover svg {
+                color: #ffd700;
+            }
+        }
+        
+        
+    
 
         // a.about-link {
         //     &:after {
@@ -187,7 +194,7 @@
             }
             .mobile-show{
                 &:hover {
-                    color: white
+                    color: yellow
                 }
             }
         }
