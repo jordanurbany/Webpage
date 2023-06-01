@@ -1,4 +1,25 @@
-
+.boat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    @media (min-width: 769px) {
+      flex-direction: row;
+    }
+  }
+  
+  .profile-pic {
+    margin-bottom: 20px;
+  
+    @media (min-width: 769px) {
+      margin-right: 20px;
+    }
+  }
+  
+  .my-image {
+    max-width: 100%;
+    height: auto;
+  }
 
 .home-page {
     .text-zone {
