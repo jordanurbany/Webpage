@@ -18,7 +18,7 @@ const Sidebar = () => {
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt='logo' />
       </Link>
-      <nav className={showNav ? 'mobile-show' : 'pc-show'}>
+      <nav className={showNav ? 'mobile-show' : 'pc-shower'}>
         <NavLink 
             onClick={() => setShowNav(false)}
             exact='true'

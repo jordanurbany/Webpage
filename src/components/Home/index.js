@@ -35,6 +35,7 @@ const Home = () => {
           </h1>
           <h2>full-stack developer | programmer | open source contributor | adrdent learner</h2>
           <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+          <a style={{textAlign: 'center'}} className='flat-button' href="https://docs.google.com/document/d/e/2PACX-1vSDSt8BU4c19kYOl4dMD8kEbRhzHw9gg-1DJSmtG7h8NccXufpK9FIBvsxEXe28tqpPNjysPxRco7ER/pub">Résumé</a>
         </div>
         <div className='profile'>
           <img src={hanalei} alt="Me" className='my-image' />

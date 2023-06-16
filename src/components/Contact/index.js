@@ -20,10 +20,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_2g7sa2n',
+                'service_leqmg3v',
                 'template_44ydq4x',
                 refForm.current,
-                'HOdtkDGgJsj_8ElPt'
+                'WgR5ZJLCftlVR3_mv'
             )
             .then(
                 () => {
@@ -94,20 +94,18 @@ const Contact = () => {
             <div className='info-map'>
                 Teddy Horvath,
                 <br />
-                California, USA
+                Florida, USA 
                 <br />
-                340 Union Street 
-                <br />
-                Arcata
+                San Marco, Jacksonville
                 <br />
                 <span>
                     teddyhorvath@gmail.com
                 </span>
             </div>
             <div className='map-wrap'>
-                <MapContainer center={[40.862620, -124.075960]} zoom={13}>
+                <MapContainer center={[30.304863, -81.6498985]} zoom={13}>
                     <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
-                    <Marker position={[40.862620, -124.075960]}>
+                    <Marker position={[30.304863, -81.6498985]}>
                         <Popup>
                             Teddy lives here, come over for a coffee!
                         </Popup>
