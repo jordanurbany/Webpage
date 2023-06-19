@@ -1,4 +1,3 @@
-
 .nav-bar {
     background: #181818;
     width: 60px;
@@ -8,6 +7,14 @@
     z-index: 3;
     min-height: 500px;
     
+    .burger-show {
+        display: none;
+
+        @media screen and (max-width: 1200px){
+            display: initial;
+        }
+    }
+
     .logo {
         display: block;
         padding: 8px 0;
@@ -204,3 +211,4 @@
         
     }
   }
+

@@ -18,7 +18,7 @@ const Sidebar = () => {
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt='logo' />
       </Link>
-      <nav className={showNav ? 'mobile-show' : 'pc-shower'}>
+      <nav className={showNav ? 'mobile-show' : 'pc-show'}>
         <NavLink 
             onClick={() => setShowNav(false)}
             exact='true'
@@ -55,6 +55,30 @@ const Sidebar = () => {
         >
             <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
         </NavLink>
+        <a
+            className='burger-show'
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.linkedin.com/in/teddy-horvath-342194242/'    
+        >
+            <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
+        </a>
+        <a
+            className='burger-show'
+            target='_blank'
+            rel='noreferrer'
+            href='https://github.com/HorvathTeddy'    
+        >
+            <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+        </a>
+        <a
+            className='burger-show'
+            target='_blank'
+            rel='noreferrer'
+            href='https://docs.google.com/document/d/e/2PACX-1vSDSt8BU4c19kYOl4dMD8kEbRhzHw9gg-1DJSmtG7h8NccXufpK9FIBvsxEXe28tqpPNjysPxRco7ER/pub'    
+        >
+            <FontAwesomeIcon icon={faPlug} color='#4d4d4e' />
+        </a>
         <FontAwesomeIcon 
             onClick={() => setShowNav(false)}
             icon={faClose}
