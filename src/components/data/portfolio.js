@@ -13,7 +13,7 @@
             "title": "Sync Webapp",
             "description": "Music collaboration app utilizing advanced AI and machine learning to match artists, lyricists, and producers.",
             "stack": "ReactJS, Firebase",
-            "url": "https://scottsvalleymagnetics.netlify.app/",
+            "url": "https://musicsync.netlify.app",
             "src": "https://github.com/HorvathTeddy/sync"
         },
         {
