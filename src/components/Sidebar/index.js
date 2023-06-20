@@ -75,7 +75,7 @@ const Sidebar = () => {
             className='burger-show'
             target='_blank'
             rel='noreferrer'
-            href='https://docs.google.com/document/d/e/2PACX-1vSDSt8BU4c19kYOl4dMD8kEbRhzHw9gg-1DJSmtG7h8NccXufpK9FIBvsxEXe28tqpPNjysPxRco7ER/pub'    
+            href='https://docs.google.com/document/d/e/2PACX-1vSBkQgUc2RbIvO2_dfrQOSEq5Xs8uSaiColbqG_jSBactffDSPbXAudN_fytC0hg7iUzwKUHXR0ROpH/pub'    
         >
             <FontAwesomeIcon icon={faPlug} color='#4d4d4e' />
         </a>
@@ -108,7 +108,7 @@ const Sidebar = () => {
             <a
                 target='_blank'
                 rel='noreferrer'
-                href='https://docs.google.com/document/d/e/2PACX-1vSDSt8BU4c19kYOl4dMD8kEbRhzHw9gg-1DJSmtG7h8NccXufpK9FIBvsxEXe28tqpPNjysPxRco7ER/pub'    
+                href='https://docs.google.com/document/d/e/2PACX-1vSBkQgUc2RbIvO2_dfrQOSEq5Xs8uSaiColbqG_jSBactffDSPbXAudN_fytC0hg7iUzwKUHXR0ROpH/pub'    
             >
                 <FontAwesomeIcon icon={faPlug} color='#4d4d4e' />
             </a>
