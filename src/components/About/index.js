@@ -2,7 +2,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAws, faGitAlt, faJsSquare, faNode, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAws, faGitAlt, faJsSquare, faNode, faPython, faReact, faJava } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
                     My name is Teddy Horvath and I am dedicated to writing effective and impactful code.
                 </p>
                 <p style={{fontSize: '20px', color: '#000'}}>
-                    I am a 22 year old from Orange County, CA currently searching for a challenging software engineering opportunity.  I have been programming since 2019 and I absolutely love it. My goal is to change as many people's lives as I can with software.
+                    I am a 22 year old from Jacksonville, FL currently searching for a challenging software engineering opportunity.  I have been programming since 2019 and I absolutely love it. My goal is to positively impact as many people's lives as I can with software.
                 </p>
                 <p style={{fontSize: '20px', color: '#000'}}>
                     Besides my adoration for all things technology, I also love swimming in the cold ocean, hiking in thick forests, and connecting with friends through a good conversation.
@@ -42,7 +42,7 @@ const About = () => {
                     <FontAwesomeIcon icon={faPython} color='#4B8BBE' />
                 </div>
                 <div className='face2'>
-                    <FontAwesomeIcon icon={faAws} color='#FF9900' />
+                    <FontAwesomeIcon icon={faJava} color='#1565C0' />
                 </div>
                 <div className='face3'>
                     <FontAwesomeIcon icon={faNode} color='#6cc24a' />
