@@ -17,6 +17,30 @@
             "src": "https://github.com/HorvathTeddy/sync"
         },
         {
+            "cover": require("../../portfolio/10/dolla.JPG"),
+            "title": "Dolla Virtual Banking",
+            "description": "Virtual Banking Made Easy",
+            "stack": "ReactJS, Firebase",
+            "url": "https://dolla-web.netlify.app/",
+            "src": "https://github.com/leovenom/react-website-smooth-scroll"
+        },
+        {
+            "cover": require("../../portfolio/7/chefit.JPG"),
+            "title": "Chef'it",
+            "description": "Food ordering app for people to cook their own food and sell it on the app.",
+            "stack": "MERN",
+            "url": "https://chefit.io/",
+            "src": "https://github.com/thedigitalchief/chef-api"
+        },
+        {
+            "cover": require("../../portfolio/8/startupucr.JPG"),
+            "title": "StartupUCR",
+            "description": "App for startups and founders to engage, brainstorm, and collaborate.",
+            "stack": "MERN",
+            "url": "https://startupucr.com/",
+            "src": "https://github.com/thedigitalchief/startupucr-fullstack-website"
+        },
+        {
             "cover": require("../../portfolio/3/uhr.PNG"),
             "title": "Uhr Mobile Delivery",
             "description": "On demand delivery service with a user and driver application.",
@@ -47,5 +71,37 @@
             "stack": "JavaScript",
             "url": "https://pong-in-js.netlify.app/",
             "src": "https://github.com/HorvathTeddy/pong-js"
+        },
+        {
+            "cover": require("../../portfolio/9/1.jpg"),
+            "title": "Plumbing Contractor Flyer",
+            "description": "Contractor flyers for Farmers Insurance Company",
+            "stack": "Adobe Photoshop, Canva",
+            "url": "https://ibb.co/9sfpdw8",
+            "src": "https://ibb.co/9sfpdw8"
+        },
+        {
+            "cover": require("../../portfolio/9/2.jpg"),
+            "title": "Landscaping Contractor Flyer",
+            "description": "Contractor flyers for Farmers Insurance Company",
+            "stack": "Adobe Photoshop, Canva",
+            "url": "https://ibb.co/bdyscC9",
+            "src": "https://ibb.co/bdyscC9"
+        },
+        {
+            "cover": require("../../portfolio/9/3.jpg"),
+            "title": "Concrete Contractor Flyer",
+            "description": "Contractor flyers for Farmers Insurance Company",
+            "stack": "Adobe Photoshop, Canva",
+            "url": "https://ibb.co/tbtcwGm",
+            "src": "https://ibb.co/tbtcwGm"
+        },
+        {
+            "cover": require("../../portfolio/9/4.jpg"),
+            "title": "Electrician Contractor Flyer",
+            "description": "Contractor flyers for Farmers Insurance Company",
+            "stack": "Adobe Photoshop, Canva",
+            "url": "https://ibb.co/Kss4HRb",
+            "src": "https://ibb.co/Kss4HRb"
         }
     ]
