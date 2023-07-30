@@ -1,35 +1,33 @@
 import React from 'react'
 import Particles from 'react-tsparticles'
-import { loadFull } from 'tsparticles';
-import { useCallback } from "react";
+import { loadFull } from 'tsparticles'
+import { useCallback } from 'react'
 
 const ParticleBackground = () => {
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine)
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine)
+  }, [])
 
-    const particlesInit = useCallback(async (engine) => {
-        console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        await loadFull(engine);
-    }, []);
-
-    const particlesLoaded = useCallback(async (container) => {
-        await console.log(container);
-    }, []);
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container)
+  }, [])
   return (
-    <Particles 
-    id="tsparticles"
-    init={particlesInit}
-    loaded={particlesLoaded}
-    options={
-        {
+    <Particles
+      id="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+      options={{
         fullScreen: {
-            enable: true,
-            zIndex: -1
+          enable: true,
+          zIndex: -1,
         },
         background: {
           color: {
-            value: "#fff",
+            value: '#ADD8E6',
           },
         },
         fpsLimit: 120,
@@ -37,11 +35,11 @@ const ParticleBackground = () => {
           events: {
             onClick: {
               enable: true,
-              mode: "push",
+              mode: 'push',
             },
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: 'repulse',
             },
             resize: true,
           },
@@ -57,10 +55,10 @@ const ParticleBackground = () => {
         },
         particles: {
           color: {
-            value: "#000",
+            value: '#000',
           },
           links: {
-            color: "#000",
+            color: '#000',
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -70,13 +68,13 @@ const ParticleBackground = () => {
             enable: false,
           },
           move: {
-            direction: "none",
+            direction: 'none',
             enable: true,
             outModes: {
-              default: "bounce",
+              default: 'bounce',
             },
             random: false,
-            speed: 3,
+            speed: 4,
             straight: false,
           },
           number: {
@@ -89,16 +87,16 @@ const ParticleBackground = () => {
           opacity: {
             value: 0.5,
           },
-          shape: {
-            type: "circle",
-          },
+          // shape: {
+          //   type: 'stars',
+          // },
           size: {
             value: { min: 1, max: 5 },
           },
         },
         detectRetina: true,
       }}
-    /> 
+    />
   )
 }
 

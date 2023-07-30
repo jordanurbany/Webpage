@@ -1,3 +1,8 @@
+.contact-page {
+    background-color: #bcbec4;
+
+}
+
 .contact-form {
     width: 100%;
     margin-top: 20px;
@@ -37,7 +42,7 @@
 
         li.full {
             ::placeholder {
-                color: white;
+                color: rgb(255, 255, 255);
                 opacity: 0.8;
             }
         }
@@ -47,11 +52,11 @@
     input[type='email'] {
         width: 100%;
         border: 0;
-        background: #4169e1 ;
+        background: #e18ab8;
         opacity: 0.75;
         height: 50px;
         font-size: 16px;
-        color: white;
+        color: rgb(247, 244, 244);
         padding: 0 20px;
         box-sizing: border-box;
     }
@@ -59,7 +64,7 @@
     textarea {
         width: 100%;
         border: 0;
-        background: #4169e1 ;
+        background:  #e18ab8;
         opacity: 0.75;
         height: 50px;
         font-size: 16px;
@@ -95,7 +100,7 @@
     z-index: 99999;
     width: 267px;
     padding: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Helvetica';
     font-style: 17px;
     font-weight: 300;
