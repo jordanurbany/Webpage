@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c5b83db.css",
-    "main.js": "/static/js/main.282e9207.js",
-    "static/js/787.df2d1515.chunk.js": "/static/js/787.df2d1515.chunk.js",
-    "static/media/DSC03749-min.jpg": "/static/media/DSC03749-min.145aacef2bcba85706dc.jpg",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/My project.jpg": "/static/media/My project.ca2ffd597c7c68367b63.jpg",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.3c5b83db.css.map": "/static/css/main.3c5b83db.css.map",
-    "main.282e9207.js.map": "/static/js/main.282e9207.js.map",
-    "787.df2d1515.chunk.js.map": "/static/js/787.df2d1515.chunk.js.map"
+    "main.css": "https://jordanurbany.com/static/css/main.5c9e69b3.css",
+    "main.js": "https://jordanurbany.com/static/js/main.076501b2.js",
+    "static/js/787.df2d1515.chunk.js": "https://jordanurbany.com/static/js/787.df2d1515.chunk.js",
+    "static/media/DSC03749-min.jpg": "https://jordanurbany.com/static/media/DSC03749-min.145aacef2bcba85706dc.jpg",
+    "static/media/helvetica-neu.ttf": "https://jordanurbany.com/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "https://jordanurbany.com/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/My project.jpg": "https://jordanurbany.com/static/media/My project.ca2ffd597c7c68367b63.jpg",
+    "static/media/LaBelleAurore.woff2": "https://jordanurbany.com/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "https://jordanurbany.com/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "https://jordanurbany.com/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "https://jordanurbany.com/index.html",
+    "main.5c9e69b3.css.map": "https://jordanurbany.com/static/css/main.5c9e69b3.css.map",
+    "main.076501b2.js.map": "https://jordanurbany.com/static/js/main.076501b2.js.map",
+    "787.df2d1515.chunk.js.map": "https://jordanurbany.com/static/js/787.df2d1515.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c5b83db.css",
-    "static/js/main.282e9207.js"
+    "static/css/main.5c9e69b3.css",
+    "static/js/main.076501b2.js"
   ]
 }
