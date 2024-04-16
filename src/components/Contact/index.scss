@@ -42,7 +42,7 @@
 
         li.full {
             ::placeholder {
-                color: rgb(255, 255, 255);
+                color: white;
                 opacity: 0.8;
             }
         }
@@ -52,7 +52,7 @@
     input[type='email'] {
         width: 100%;
         border: 0;
-        background: #e18ab8;
+        background: #ffffff;
         opacity: 0.75;
         height: 50px;
         font-size: 16px;
@@ -64,7 +64,7 @@
     textarea {
         width: 100%;
         border: 0;
-        background:  #e18ab8;
+        background:  white;
         opacity: 0.75;
         height: 50px;
         font-size: 16px;
