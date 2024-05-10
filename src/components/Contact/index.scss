@@ -52,11 +52,11 @@
     input[type='email'] {
         width: 100%;
         border: 0;
-        background: #ffffff;
+        background: #000000;
         opacity: 0.75;
         height: 50px;
         font-size: 16px;
-        color: rgb(247, 244, 244);
+        color: rgb(255, 255, 255);
         padding: 0 20px;
         box-sizing: border-box;
     }
@@ -64,7 +64,7 @@
     textarea {
         width: 100%;
         border: 0;
-        background:  white;
+        background:  rgb(0, 0, 0);
         opacity: 0.75;
         height: 50px;
         font-size: 16px;
@@ -75,8 +75,8 @@
     }
 
     .flat-button {
-        color: #4169e1 ;
-        background: #fff;
+        color: #ffffff ;
+        background: #000000;
         font: 11px;
         letter-spacing: 3px;
         text-decoration: none;

@@ -92,7 +92,7 @@ const Contact = () => {
         <div className="info-map">
           Jordan Urbany,
           <br />
-          McKinleyville, CA
+          Uluwatu, Indonesia
           <br />
           <span>jordanurbany@gmail.com</span>
         </div>
