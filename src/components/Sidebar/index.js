@@ -79,7 +79,7 @@ const Sidebar = () => {
           className="burger-show"
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1EbSnDDQwQckE5hySHKSVj_EuVNVR5nQK/view?ths=true&pli=1"
+          href="https://drive.google.com/file/d/1ELdqWW_M8AvcdI96dAaIcS2cCwIvMl1H/view?usp=drive_link"
         >
           <FontAwesomeIcon icon={faPlug} color="#4d4d4e" />
         </a>
