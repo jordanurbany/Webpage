@@ -112,7 +112,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1EbSnDDQwQckE5hySHKSVj_EuVNVR5nQK/view?ths=true&pli=1"
+            href="https://drive.google.com/file/d/1Nkv3nbdn8nbyjm1_uCT8hWLN4u7xs5Q5/view?usp=sharing"
           >
             <FontAwesomeIcon icon={faPlug} color="#4d4d4e" />
           </a>
