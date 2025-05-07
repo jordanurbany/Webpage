@@ -48,10 +48,12 @@ const Contact = () => {
             />
           </h1>
           <p style={{ color: 'black', fontSize: '14px', fontWeight: '700' }}>
-            I am interested in startup opportunities and new project ideas! Some
-            things that interest me are new battery technologies, blockchain,
-            DevOps, and AI. Please feel free to reach out send me a message if
-            you have any questions or comments.
+          Interested in startup opportunities and new projects! 
+          My core focus involves N8N, data insights, AI agent development, 
+          and leveraging my MCP skillset. I also keep a close eye on new 
+          battery technologies, blockchain, and DevOps. 
+          If you have questions, comments, or an idea to collaborate on, 
+          please reach out.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>

@@ -33,15 +33,19 @@ const About = () => {
               idx={15}
             />
             <p style={{ fontSize: '20px', color: '#000' }}>
-              Hello and welcome to my personal website! My names Jordan Urbany
-              and I'm a newly graduated software engineer hailing from the
-              beautiful town of McKinleyville, CA. I recently completed my
-              studies at Cal Poly Humboldt, where I honed my technical skills
-              and passion for programming.
+            Welcome! I'm Jordan Urbany. With a BS in Computer 
+            Science from Cal Poly Humboldt, my career has been 
+            dedicated to Product Development and Program Data Management. 
+            I've cultivated a global perspective on product management 
+            during my time in Singapore and refined my skills in 
+            data-centric program leadership as a Program Data Manager 
+            in San Francisco. These roles, underpinned by my technical 
+            skills in software development, cloud computing, and database 
+            management, enable me to build impactful, innovative solutions. I am committed to creating world-class solutions, especially for community-focused projects.
             </p>
             <p style={{ fontSize: '20px', color: '#000' }}>
               When im not programming my other hobbies include, surfing, playing
-              music, traveling. Im thrilled to share my journey with you and
+              music, photography, traveling. Im thrilled to share my journey with you and
               showcase the projects and experiences that define me as a person
               and professional.
             </p>

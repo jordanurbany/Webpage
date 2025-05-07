@@ -1,5 +1,22 @@
 export const portfolioData = [
   {
+    cover: require('../../portfolio/St.-Vincent-de-Paul-logo.jpeg'),
+    title: 'St Vincent De Paul San Francisco',
+    description:
+    'Program Data Analyst helping maintain, verify and clean data for all of San Francisco',
+    stack: 'Saleforce, Clarity, BitFocus, Python, ',
+    url: 'https://svdp-sf.org/',
+  },
+  {
+    cover: require('../../portfolio/rently.jpg'),
+    title: 'Rently',
+    description:
+    'Fintech company in Singapore',
+    stack: 'Fullstack, Android, Apple, Mobile',
+    url: 'https://www.rently.sg/',
+  },
+  
+  {
     cover: require('../../portfolio/My project.jpg'),
     title: 'Lookout!',
     description:

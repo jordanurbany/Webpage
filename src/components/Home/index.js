@@ -42,14 +42,14 @@ const Home = () => {
               idx={20}
             />
           </h1>
-          <h2>Software Programmer | Front-end Developer | New Graduate</h2>
+          <h2>Software Programmer | Data Analyst | Product Manager</h2>
           <Link to="/contact" className="flat-button">
             Contact Me
           </Link>
           <a
             style={{ textAlign: 'center' }}
             className="flat-button"
-            href="https://drive.google.com/file/d/1Nkv3nbdn8nbyjm1_uCT8hWLN4u7xs5Q5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1eWwkK5Oq_QZiHkFrAXD6pro5rqu7OmVd/view?usp=drive_link"
           >
             Resume
           </a>
