@@ -49,7 +49,7 @@ const Home = () => {
           <a
             style={{ textAlign: 'center' }}
             className="flat-button"
-            href="https://drive.google.com/file/d/1eWwkK5Oq_QZiHkFrAXD6pro5rqu7OmVd/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1eWwkK5Oq_QZiHkFrAXD6pro5rqu7OmVd/view?usp=sharing"
           >
             Resume
           </a>
